@@ -51,6 +51,7 @@ extern "C" {
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
+void MX_TIM3_Init(void);
 
 /* USER CODE BEGIN EFP */
 
