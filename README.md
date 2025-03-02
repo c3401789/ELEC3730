@@ -13,6 +13,6 @@ It has been setup as follows:
 - TIMER 2 Callback
 - Interrupts enabled EXT line 15:10.
 - Interrupt enabled for Blue Wakeup Button (PC13) - Rising edge - with callback function.
-- ADC1 Input 11 added for PC2(CN10 Pin 3 RX) on STMod+ Fanout board. Main uses poll for conversion.
-
+- ~~ADC1 Channel 12 added for PC2(CN10 Pin 3 RX) on STMod+ Fanout board. Main uses poll for conversion.~~
+- Added DMA for ADC1 Channel 12, triggered by TIMER 3, PSC:20000, Period:10000, Added callback function to set flag.
 
